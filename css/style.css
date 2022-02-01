@@ -18,16 +18,8 @@
 .navbar-image {
     border-radius: 50%;
     border-style: solid;
-    border-color: blueviolet;  /* #854fee; */
+    border-color: #854fee; 
     width: 65%;
-    height: auto;
-}
-
-.navbar-image {
-    border-radius: 50%;
-    border-style: solid;
-    border-color: violet;
-    width: 70%;
     height: auto;
 }
 
