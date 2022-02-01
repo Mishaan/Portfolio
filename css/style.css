@@ -18,7 +18,7 @@
 .navbar-image {
     border-radius: 50%;
     border-style: solid;
-    border-color: #854fee;
+    border-color: blueviolet;  /* #854fee; */
     width: 65%;
     height: auto;
 }
