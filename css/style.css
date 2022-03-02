@@ -1,8 +1,6 @@
 
 /* import fonts from fonts.css file */
 @import url(./fonts.css);
-
-
 /* css variables */
 @import url(./partials/_variables.css);
 
@@ -15,11 +13,21 @@
     padding: 0 2rem 0 5rem;
 }
 
+.header_area {
+    position: fixed;
+    width: auto;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+}
+
 .navbar-image {
     border-radius: 50%;
     border-style: solid;
-    border-color: #854fee;  
-    width: 65%;
+    border-color: #854fee;
+    width: 55%;
     height: auto;
 }
 
@@ -117,9 +125,23 @@
 
 hr {
     border: none;
-    height: 3px;
-    background: #dddddd;
+    height: 2.2px;
+    margin-left: 0px;
 }
+
+#upicon{
+    width:40px;
+    position: fixed;
+    right: 0px;
+    bottom: 5px;
+}
+
+.hello {
+    margin: auto;
+    width: 70%;
+    /* height: auto; */
+}
+
 
 /* .site-main .education-field .education-college-data {
     padding: .4rem 0;
@@ -299,8 +321,8 @@ hr {
 }
 /* doubt position relative then absolute why?*/
 .portfolio .box-container .box{
-    height: 40rem;
-    width:36rem;
+    height: 30rem;
+    width: 22rem;
     border-radius: 1rem;
     margin:4rem;
     /* overflow: hidden; */
@@ -320,7 +342,7 @@ hr {
 } */
 
 .portfolio .box-container .box:hover img{
-    transform: scale(1.2);
+    transform: scale(1.15);
     filter: blur(15px);
 }
 .portfolio .box-container .box:hover .pro-content{
