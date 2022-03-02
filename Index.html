@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ishaan Mandhar</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 
     <!--  Bootstrap css file  -->
@@ -80,7 +81,7 @@
 
         <!--  ======================= Start Banner Area =======================  -->
         <section class="site-banner">
-            <div class="container">
+            <div class="container" data-aos="slide-right">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h3 class="title-text">Hey</h3>
@@ -112,11 +113,11 @@
             <div class="container-fluid" id="about">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <div class="about-image">
+                        <div class="about-image" data-aos="slide-right">
                             <img src="./img/about-us.png" alt="About us" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 about-title">
+                    <div class="col-lg-6 col-md-12 about-title" data-aos="slide-left">
                         <h2 class="text-uppercase pt-5">
                             <span>Let me</span>
                             <span>introduce</span>
@@ -131,8 +132,8 @@
                             <p class="para">
                                 I am a passionate Competitive Programmer and am highly interested in Algorithmic
                                 Problem Solving. In my three years of experience in both practicing and teaching CP.
-                                I am also an Web Development Enthusiast and have made quite a few projects in HTML, CSS,
-                                JavaScript and ReactJS.
+                                I am also an Web Development Enthusiast and have made quite a few projects in HTML, CSS
+                                & JS.
                             </p>
                         </div>
                         <a href="ResumeLatest.pdf" type="button" class="btn button primary-button text-uppercase"
@@ -148,9 +149,9 @@
         <!-- =========================  Education Area =============================== -->
 
         <section class="education-field">
-            <div id="education">
+            <div id="education" data-aos="slide-right">
                 <h1 class="title-text text-uppercase"><em>Education</em></h1>
-                <div class="education-college">
+                <div class="education-college" id="e-one">
                     <img class="hbtu" src="img/hbtu.png" alt="Harcourt Butler Technical University">
                     <div class="education-college-data">
                         <h2><i>Harcourt Butler Technical University</i></h2>
@@ -158,14 +159,20 @@
                         <p class="para">August 2019 - July 2023 <br> Kanpur, UP </p>
                     </div>
                 </div>
-                <hr>
-                <div class="education-school">
+                <div id="one">
+                    <hr>
+                </div>
+
+                <div class="education-school" id="e-two">
                     <img class="spring" src="img/school.png" alt="Spring Bells School">
                     <div class="eduation-school-data">
                         <h2><i>Spring Bells School</i></h2>
                         <p class="para"><b>Higher Secondary</b></p>
                         <p class="para">April 2016 - April 2018 <br> Saharanpur, UP </p>
                     </div>
+                </div>
+                <div id="two">
+                    <hr>
                 </div>
             </div>
         </section>
@@ -175,13 +182,18 @@
         <!--  ======================== Brand Area ==============================  -->
 
         <section class="brand-area">
-            <div class="container-fluid">
+            <div class="container-fluid" data-aos="zoom-in-left">
+                <h1 class="title-text text-uppercase"><em>Skills</em></h1>
+
                 <div class="row">
+                    <!-- <div class=" "> -->
+                    <!-- <img src="img/hello.gif" alt="Hello" class="hello"> -->
+                    <!-- </div> -->
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/c.png" alt="Brand-1 ">
+                                    <img src="./img/c.png" alt="Brand-9">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -206,12 +218,57 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
+                                    <img src="./img/React.jpg" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/nodejs.jfif" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
                                     <img src="./img/python.png" alt="Brand-6">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
                                     <img src="./img/sql.png" alt="Brand-7 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/oop.jfif" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/dsa.jfif" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/os.jpg" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/cn.jfif" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/mongodb.png" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/system_design.jpg" alt="Brand-9">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/mysql.png" alt="Brand-9">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -257,7 +314,7 @@
         <section class="services-area">
             <div class="container" id="coding">
                 <div class="row">
-                    <div class="col-lg-12 text-center services-title">
+                    <div class="col-lg-12 text-center services-title" data-aos="flip-left">
                         <h1 class="text-uppercase title-text">My Online Coding Profiles</h1>
                         <p class="para">
                             I am practicing for the last three years on various online coding platforms.
@@ -266,7 +323,7 @@
                     </div>
                 </div>
                 <div class="container services-list">
-                    <div class="row">
+                    <div class="row" data-aos="zoom-out">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
@@ -277,8 +334,8 @@
                                         <h5 class="card-title text-uppercase font-roboto">Codeforces</h5>
                                     </a>
                                     <p class="card-text text-secondary">
-                                        Specialist at codeforces. Max Rating (1535).
-                                        username : ishaanmandhar
+                                        Specialist at codeforces. Max Rating (1443).
+                                        username : ishaanmandhar.
                                     </p>
                                 </div>
                             </div>
@@ -294,7 +351,7 @@
                                     </a>
                                     <p class="card-text text-secondary">
                                         2 star at LeetCode. Max Rating (1758).
-                                        username : ishaanmandhar
+                                        username : ishaanmandhar.
                                     </p>
                                 </div>
                             </div>
@@ -310,7 +367,7 @@
                                     </a>
                                     <p class="card-text text-secondary">
                                         4 star at codechef. Max Rating (1959).
-                                        username : ishaanmandhar
+                                        username : ishaanmandhar.
                                     </p>
                                 </div>
                             </div>
@@ -325,8 +382,8 @@
                                         <h5 class="card-title text-uppercase font-roboto">Atcoder</h5>
                                     </a>
                                     <p class="card-text text-secondary">
-                                        username : ishaanmandhar
-                                        Max Rating : (775). 
+                                        Japanese online Coding platform.
+                                        Max Rating : (706). username : ishaanmandhar.
                                     </p>
                                 </div>
                             </div>
@@ -392,8 +449,7 @@
         <section class="portfolio" id="portfolio">
 
             <h1 class="heading"> My <span>Projects</span> </h1>
-
-            <div class="box-container">
+            <div class="box-container" data-aos="zoom-in">
 
                 <div class="box">
                     <img src="./img/img5.jpg" alt="">
@@ -404,7 +460,8 @@
                             using the API.
                             <br>
 
-                            • It uses the OpenWeather API to fetch the current weather and uses NodeJS to create the server
+                            • It uses the OpenWeather API to fetch the current weather and uses NodeJS to create the
+                            server
                             and serve the API.
                         </p>
                         <div class="pro-btn-grp">
@@ -416,16 +473,19 @@
                 </div>
 
                 <div class="box">
-                    <img src="https://cdn5.vectorstock.com/i/1000x1000/58/04/chat-messaging-app-logo-design-vector-21795804.jpg" alt="">
+                    <img src="https://cdn5.vectorstock.com/i/1000x1000/58/04/chat-messaging-app-logo-design-vector-21795804.jpg"
+                        alt="">
                     <div class="pro-content">
                         <h1 class="pro-title heading"><span id="second-pro">Chat App</span></h1>
                         <p class="pro-info ">
                             • Developed a chat application using ReactJS.
                             <br>
-                            • Here more than two person can have conversation at a time and also have the login feature for each individual.
+                            • Here more than two person can have conversation at a time and also have the login feature
+                            for each individual.
                         </p>
                         <div class="pro-btn-grp">
-                            <a href="https://laughing-williams-cf510e.netlify.app"><button class="pro-btn github btn">github</button></a>
+                            <a href="https://laughing-williams-cf510e.netlify.app"><button
+                                    class="pro-btn github btn">github</button></a>
                             <a href=""><button class="pro-btn live btn">live</button></a>
                         </div>
                     </div>
@@ -443,13 +503,15 @@
                             the corresponding sounds from the different musical instruments.
                         </p>
                         <div class="pro-btn-grp">
-                            <a href="https://mishaan.github.io/Drum-Kit/"><button class="pro-btn github btn">github</button></a>
+                            <a href="https://mishaan.github.io/Drum-Kit/"><button
+                                    class="pro-btn github btn">github</button></a>
                             <a href=""><button class="pro-btn live btn">live</button></a>
                         </div>
                     </div>
                 </div>
 
             </div>
+            <hr>
 
         </section>
 
@@ -457,7 +519,7 @@
 
         <!--  ========================== Subscribe me Area ============================  -->
         <section class="subscribe-us-area">
-            <div class="container subscribe" id="contact">
+            <div class="container subscribe" id="contact" data-aos="slide-left">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
                         <h4 class="text-uppercase">Want to hire me ...</h4>
@@ -470,7 +532,7 @@
                             <div class="col input-textbox" style="padding-top: 30px;">
                                 <!-- <input type="text" id="txtemail" class="form-control" placeholder="Type message"> -->
                                 <a href="mailto:mandharishaan@gmail.com" type="button"
-                                        class="btn button secondary-button text-uppercase float-right">Mail</a>
+                                    class="btn button secondary-button text-uppercase float-right">Mail</a>
                                 <!-- <a href="https://www.instagram.com/ishaan_gurjarr/" type="button" style="size: 500px;"><i class="fab fa-instagram"></i></a> -->
                             </div>
                             <div class="col">
@@ -492,7 +554,7 @@
     <!--  ======================= End Main Area ================================ -->
 
     <footer class="footer-area">
-        <div class="container">
+        <div class="container" data-aos="slide-right">
             <div class="">
                 <div class="site-logo text-center py-4">
                     <a href="#"><img src="./img/LOGO1.png" alt="logo"></a>
@@ -500,7 +562,8 @@
                 <div class="social text-center">
                     <h5 class="text-uppercase">Follow me</h5>
                     <a href="https://www.instagram.com/ishaan_gurjarr/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UCH00dk1Yo2NMbdOZRCDY2Iw"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UCH00dk1Yo2NMbdOZRCDY2Iw"><i
+                            class="fab fa-youtube"></i></a>
                     <a href="https://twitter.com/MandharIshaan"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/ishaan-mandhar-864648213/"><i class="fab fa-linkedin"></i></a>
                 </div>
@@ -513,7 +576,13 @@
                 </div>
             </div>
         </div>
+
     </footer>
+    <!-- <button><i class="bi bi-arrow-up-circle-fill"></i></button> -->
+    <a href="#"><button type="button" onClick="window.location.reload();"> <img id="upicon" src="node_modules/bootstrap-icons/icons/arrow-up-circle-fill.svg" alt=""> </button> </a>
+    <!-- <button type="button" onClick="window.location.reload();"> <a href="#"><img id="upicon" src="node_modules/bootstrap-icons/icons/arrow-up-circle-fill.svg" alt=""> </a> </button> -->
+
+    <!-- <img id="upicon" src="node_modules/bootstrap-icons/icons/arrow-up-circle-fill.svg" alt=""> -->
 
 
     <!--  Jquery js file  -->
@@ -533,8 +602,74 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
 
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 800, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+
+    <script>
+        document.getElementById("e-one").addEventListener("mouseover", mouseOver1);
+        document.getElementById("e-one").addEventListener("mouseout", mouseOut1);
+        document.getElementById("e-two").addEventListener("mouseover", mouseOver2);
+        document.getElementById("e-two").addEventListener("mouseout", mouseOut2);
+
+        document.getElementById("one").style.width = "80%";
+        document.getElementById("one").style.background = "#dddddd";
+        document.getElementById("two").style.width = "80%";
+        document.getElementById("two").style.background = "#dddddd";
+
+        function mouseOver1() {
+            document.getElementById("one").style.width = "100%";
+            document.getElementById("one").style.background = "var(--primary-color2)";
+            document.getElementById("one").style.transition = "500ms";
+        }
+
+        function mouseOut1() {
+            document.getElementById("one").style.width = "80%";
+            document.getElementById("one").style.background = "#dddddd";
+
+        }
+
+        function mouseOver2() {
+            document.getElementById("two").style.width = "100%";
+            document.getElementById("two").style.background = "var(--primary-color2)";
+            document.getElementById("two").style.transition = "500ms";
+        }
+
+        function mouseOut2() {
+            document.getElementById("two").style.width = "80%";
+            document.getElementById("two").style.background = "#dddddd";
+
+        }
+
+        function refresh() {
+            window.location.reload();
+        }
+    </script>
 </body>
 
 </html>
